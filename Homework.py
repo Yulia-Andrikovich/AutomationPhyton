@@ -40,3 +40,43 @@ print(age)
         print("Palindrome")
     else:
         print("Not Palindrome")
+
+    from math import sqrt
+    print("Let's count: ")
+    a = int(input("a: "))
+    b = int(input("b: "))
+    с = sqrt(a * b)
+    print(c)
+    if a = 0 or b = 0
+        raise ValueError("Zero does not fit")
+
+    print("Let's count: ")
+    a = int(input("a: "))
+    b = int(input("b: "))
+    с = sqrt(a * b)
+    try:
+    c: float = sqrt(a * b)
+    print(f"Geometric average of {a} and {b} is {geometric_average}")
+    except ValueError:
+    print(f"Can't calculate geometric average of {a} and {b}")
+
+
+age = int(input("Введите свой возраст: "))
+quantity_tickets = int(input("Введите количество билетов: "))
+sum1 = 0
+N = 99
+
+
+if age < 18:
+    return 0
+elif age in range(18, 25):
+    return 100
+else:
+    return 200
+
+
+
+
+
+
+
